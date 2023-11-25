@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import isValidUrl from '@/urlregex';
+import isValidUrl from "../urlRegex.js"
 
 export default function Home() {
   const [url, setUrl] = useState('');
